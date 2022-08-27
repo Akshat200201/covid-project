@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>COVIPROVISION- A Info To Express</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img.jpg" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">--We can beat it together!!--</p>
+                <p class="text-small"> We're going to go through tough times - but that's life. We should believe that -
+                    'Nothing happens to you, it happens for you.'</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+
+                    <button class="btn" onclick="window.location.href='https://youtu.be/xG5j_zgaYJc'" >Watch
+                        Video</button>
+
+
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="img.jpg" alt="logo image">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">About this pandemic</p>
+            <p class="sectionSubTag text-small">A coronavirus is a kind of common virus that causes an infection in your
+                nose, sinuses, or upper throat. Most coronaviruses aren't dangerous.
+
+                In early 2020, after a December 2019 outbreak in China, the World Health Organization identified
+                SARS-CoV-2 as a new type of coronavirus. The outbreak quickly spread around the world.
+
+                COVID-19 is a disease caused by SARS-CoV-2 that can trigger what doctors call a respiratory tract
+                infection. It can affect your upper respiratory tract (sinuses, nose, and throat) or lower respiratory
+                tract (windpipe and lungs).
+
+                It spreads the same way other coronaviruses do, mainly through person-to-person contact. Infections
+                range from mild to deadly.
+
+                SARS-CoV-2 is one of seven types of coronavirus, including the ones that cause severe diseases like
+                Middle East respiratory syndrome (MERS) and sudden acute respiratory syndrome (SARS). The other
+                coronaviruses cause most of the colds that affect us during the year but aren’t a serious threat for
+                otherwise healthy people.
+                <a href="https://en.wikipedia.org/wiki/COVID-19_pandemic" target="_blank">Learn more</a>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?covid" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+
+
+
+    <section class="section section-left" id="about">
+        <div class="paras">
+            <p class="sectionTag text-big">Our Subject</p>
+            <p class="sectionSubTag text-small">We have selected a concerning research about-"COVID-19 SYMPTOMS AT
+                HOSPITAL ADMISSION VARY WITH AGE AND
+                SEX:RESULTS FROM THE ISARIC PROSPECTIVE MULTINATIONAL OBSERVATIONAL STUDY".
+                This research is done by the ISARIC multinational observational study which is about
+                the variation of symptoms of covid – 19 cases on the basis of different age groups and on
+                the premise of sexual orientation , we will notice that people whose age is over 60 years or
+                less than 20 years are experiencing few more symptoms, apart from the typical
+                symptoms which is fever, cough and shortness of breath, we also notice that there are
+                more proportions of females that are experiencing atypical symptoms as compared to males.
+                This research is useful in generalizing the covid – 19 symptoms which are previously
+                scattered and that can be really helpful to medical staff for diagnosis and other predictions
+                related to this disease.
+                <a href="https://pubmed.ncbi.nlm.nih.gov/34170486/" target="_blank">More about it</a>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?analysis html" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+    <section class="section" id="services">
+        <div class="paras">
+            <p class="sectionTag text-big">Our Work</p>
+
+
+
+
+
+            </p>
+
+            <p class="sectionSubTag text-small">
+                We took our problem statement as -"COVID -19 IMPACTS ON VARIOUS AGE GROUPS ,SEX AND PEOPLES
+                WITH CERTAIN DISESASES: RISK EVALUATION FROM THE EXISTING DATA".
+                We had analyze the existed raw data which we found in this research.First of all it came in the form of
+                excell documents, then we analyze the datasheet by using pandas from Python one the basis of: <br>
+                Dependencies of gender and age groups :
+                <a href="Dataset1.html" target="_blank">Click here</a>
+                <br>
+                Dependencies of gender and various diseases :
+                <a href="Database2.html" target="_blank">Click here</a>
+                <br>
+                Dependencies of age group and various diseases :
+                <a href="Database3.html" target="_blank">Click here</a>
+                <br>
+                Perks of our work:<br>
+                ● It helps to create awareness of various age groups.<br>
+                ● Identify who are more vulnerable to this disease.<br>
+                ● Determine if existing control measures are adequate or if more should
+                be done.<br>
+                ● Prioritize the different sets of people on the basis of their age, sex and
+                what abnormalities they have and take further action.<br>
+                ● Prevent the upcoming threat by having prior knowledge of calamity.<br>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?coding" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                placeholder="Support us by your feedback"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2021 - www.COVIPROVISION.com - All rights reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+
+</body>
+
+</html>
+ 
